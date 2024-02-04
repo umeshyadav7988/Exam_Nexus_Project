@@ -1,0 +1,50 @@
+/* src/components/AttendExam.css */
+.attend-exam-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .left-section {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .exam-details {
+    text-align: left;
+  }
+  
+  .right-section {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .exam-instructions {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .start-test-button {
+    text-align: right;
+  }
+  
+  .start-test-button button {
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .start-test-button button:hover {
+    background-color: #2980b9;
+    color: #fff;
+  }
+  

@@ -1,0 +1,142 @@
+#home-page-content {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+
+  #home-page-info {
+    // min-height: 600px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    #home-picture-container {
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    #home-info-container {
+      height: 100%;
+      padding: 10% 2rem 20%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: rgba(255, 255, 255, 0.5);
+      position: absolute;
+
+      .home-info-title {
+        strong {
+          font-size: 1.5rem;
+          color: black;
+        }
+
+        font-size: 1.3rem;
+        font-weight: bold;
+        margin-bottom: 10%;
+        color: rgb(128, 64, 0);
+      }
+
+      .home-info-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 1rem;
+        border-radius: 0.5rem;
+
+        .home-info-heading {
+          font-size: 1.1rem;
+          font-weight: bold;
+          color: rgb(128, 64, 0);
+        }
+
+        .home-info-text {
+          font-size: 1rem;
+          font-weight: bold;
+        }
+      }
+
+    }
+  }
+
+
+  #login-form-container {
+    width: 400px;
+    min-width: 300px;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    color: rgb(128, 64, 0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    .login-form-heading {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 1.25rem;
+      text-align: center;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 80%;
+
+      .input-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+
+        label {
+          font-size: 1.1rem;
+          font-weight: bold;
+          margin-bottom: 0.5rem;
+        }
+
+        input {
+          height: 3rem;
+          border-radius: 0.5rem;
+          border: 1px solid #ccc;
+          padding: 0.5rem;
+          color: black;
+        }
+      }
+
+      select {
+        height: 3rem;
+        border-radius: 0.5rem;
+        border: 1px solid #ccc;
+        padding: 0.5rem;
+
+        option {
+          height: 2rem;
+          border-radius: 0.5rem;
+          border: 1px solid #ccc;
+          padding: 0.5rem;
+        }
+      }
+
+      button {
+        height: 3rem;
+        border-radius: 0.5rem;
+        font-size: 1.2rem;
+        color: white;
+        border: 1px solid #ccc;
+        padding: 0.5rem;
+        background-color: #fd7e14;
+        font-weight: 500;
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+/* src/components/Homepage.css */
+.homepage-container {
+    padding: 20px;
+    display: flex;
+    align-items: flex-start; /* Align items to the start (left) */
+  }
+  
+  .animation-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 10px; /* Add margin below the navbar */
+  }
+  
+  .book,
+  .pc,
+  .exam {
+    font-size: 5rem;
+    margin-right: 20px;
+    animation: bounce 1s infinite alternate;
+  }
+  
+  .pc {
+    color: #3498db;
+  }
+  
+  .exam {
+    color: #27ae60;
+  }
+  
+  @keyframes bounce {
+    to {
+      transform: translateY(-20px);
+    }
+  }
+  
+  .features-section {
+    text-align: left;
+    margin-left: 50px;
+    width:45%; /* Increase the width of the features section */
+    margin-right: 75px; /* Adjust margin-right as needed */
+  }
+  
+  .feature {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .feature:hover {
+    transform: scale(1.05);
+  }
+  
+  .feature h3 {
+    color: #3498db;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    color: #555555;
+    margin: 0;
+  }
+  
+  .login-section {
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    width: 40%; /* Adjust the width of the login section */
+    margin-top: 50px; /* Bring the login section a little lower */
+  }
+  
+  .login-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  .login-box h2 {
+    color: #3498db;
+    margin-bottom: 20px;
+  }
+  
+  /* Add styles for your login form inputs */
+  

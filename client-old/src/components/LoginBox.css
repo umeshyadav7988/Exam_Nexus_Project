@@ -1,0 +1,85 @@
+/* src/components/Login.css */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .login-container {
+    text-align: center;
+  }
+  
+  .login-box {
+    width: 400px; /* Extend the width of the box */
+    margin: 0 auto; /* Center the box horizontally */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  h2 {
+    color: #333333;
+    text-align: left; /* Left-align the heading */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    color: #555555;
+    text-align: left; /* Left-align the labels */
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  } 
+  .login-container {
+    text-align: center;
+    padding-top: 70px; /* Adjust the padding based on the height of your navbar */
+  }
+  
+  .login-box h2 {
+    color: #333333;
+    text-align: center;
+  }

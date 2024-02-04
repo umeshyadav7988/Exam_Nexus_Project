@@ -1,0 +1,78 @@
+/* src/components/ExamResult.css */
+.exam-result-container {
+    display: flex;
+    margin-top: 1300px;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .left-section,
+  .middle-section,
+  .right-section {
+    flex: 1;
+    height: 365px;
+  }
+  
+  .middle-section {
+    height: 200px;
+  }
+
+  .exam-analysis{
+    position: relative;
+    top: -185px;
+  }
+
+  
+  .right-section button {
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: white;
+    height: 60px;
+    border: none;
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .right-section button:hover {
+    background-color: #2980b9;
+    color: #fff;
+  }
+  
+  .answers-section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  
+  .question-container {
+    margin-bottom: 20px;
+  }
+  
+  .question {
+    font-weight:500;
+  }
+  
+  .options-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .option {
+    width: 48%;
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  .correct-answer {
+    margin-top: 10px;
+    font-weight:500;
+    color: green;
+  }
+  

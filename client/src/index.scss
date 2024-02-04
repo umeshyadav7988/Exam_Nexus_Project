@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// font-family: 'Courgette', cursive;
+// font-family: 'Ubuntu', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+main {
+  height: calc(100% - 60px);
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  background-color: rgba(249, 115, 22);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  
+  .logout-btn {
+    background-color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+  }
+}
+
+.back-to-dashboard-btn {
+  background-color: rgba(249, 115, 22);
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
