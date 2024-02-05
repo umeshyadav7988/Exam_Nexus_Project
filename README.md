@@ -1,6 +1,3 @@
-Team Name:
-SuccessSculptors
-
 Project Name:
 ExamNexus: Revolutionizing Education Assessment
 
