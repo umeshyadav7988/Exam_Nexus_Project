@@ -5,7 +5,7 @@ const AdminSchema = new Schema({
   username: {
     type: String,
     unique: true,
-    index: true,
+    index: true ,
     required: true
   },
   password: {
